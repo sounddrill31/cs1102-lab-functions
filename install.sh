@@ -4,7 +4,7 @@
 SCRIPT_DIR="$HOME/cs1102-scripts"
 SCRIPT_FILE="cs1102rc.sh"
 SCRIPT_PATH="$SCRIPT_DIR/$SCRIPT_FILE"
-SCRIPT_URL="http://example.com/cs1102rc.sh" # Replace with actual URL
+SCRIPT_URL="https://raw.githubusercontent.com/sounddrill31/cs1102-lab-functions/refs/heads/main/cs1102rc.sh"
 
 install() {
     # Create the directory if it doesn't exist
@@ -34,6 +34,7 @@ install() {
         echo "        * ) echo \"Skipping removal.\" ;;" >> "$HOME/.profile"
         echo "    esac" >> "$HOME/.profile"
         echo "fi" >> "$HOME/.profile"
+        echo "File installed. Just source ~/.profile to start using or reopen window/reconnect to shell."
     else
         echo "Sourcing logic already exists in ~/.profile."
     fi
