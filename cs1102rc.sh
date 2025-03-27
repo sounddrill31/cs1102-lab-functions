@@ -1,3 +1,7 @@
+#/usr/bin/bash
+
+# URL: https://github.com/sounddrill31/cs1102-lab-functions
+
 # aliases, for convenience, add to end of ~/.bashrc
 alias "bc"="batcat"
 alias "t"="tmux"
